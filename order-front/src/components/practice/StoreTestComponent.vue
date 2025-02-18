@@ -1,0 +1,19 @@
+<template>
+<h1>store component</h1>
+<StoreTestComponentA/>
+<br><br>
+<StoreTestComponentB/>
+
+</template>
+
+<script>
+import StoreTestComponentA from './StoreTestComponentA.vue';
+import StoreTestComponentB from './StoreTestComponentB.vue';
+
+export default{
+    components:{
+        StoreTestComponentA, StoreTestComponentB
+    }
+}
+
+</script>
